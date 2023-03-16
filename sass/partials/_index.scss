@@ -1,5 +1,48 @@
-.title-servicios{
-    @extend %subtitulo;
-    margin: 3rem;
-    text-align: center;
-}
+
+main{
+
+    .title-servicios{
+        @extend %subtitulo;
+        margin: 3rem;
+        text-align: center;
+    }
+    
+    .servicios {
+        @include flex(flex, center, center);
+        margin-top: 3rem;}
+
+        .servicios-item {
+            text-align: center;
+            color: $colorsecondary;
+            text-shadow: 1px 1px 1px $colormain ;
+            font-family: $fontmain;
+            font-size: 1.5rem;
+            background-color: black;
+          
+
+          li {
+            color: $colormain;
+            background-color: black;
+            font-family: $fontsecondary;
+            animation: servicios 1.5s infinite linear alternate;
+      
+            @keyframes servicios {
+              0%,
+              20% {
+                color: rgb(252, 168, 13);
+              }
+              25%,
+              45% {
+                color: rgb(190, 103, 9);
+              }
+              50%,
+              100% {
+                color: rgba(193, 148, 66, 0.939);
+              }
+            }
+          }
+        }
+    }
+
+
+

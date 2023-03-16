@@ -24,7 +24,7 @@ header nav .logo:hover {
   border: 3px solid;
 }
 
-.title-servicios {
+main .title-servicios {
   color: orange;
   font-family: "Phudu", cursive;
   font-weight: bold;
@@ -100,7 +100,38 @@ header .banner .bienvenida h2 {
     background-image: url("/images/banner-index4.webp");
   }
 }
-.title-servicios {
+main .title-servicios {
   margin: 3rem;
   text-align: center;
+}
+main .servicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+main .servicios-item {
+  text-align: center;
+  color: orange;
+  text-shadow: 1px 1px 1px orangered;
+  font-family: "Phudu", cursive;
+  font-size: 1.5rem;
+  background-color: black;
+}
+main .servicios-item li {
+  color: orangered;
+  background-color: black;
+  font-family: "Bebas Neue", cursive;
+  animation: servicios 1.5s infinite linear alternate;
+}
+@keyframes servicios {
+  0%, 20% {
+    color: rgb(252, 168, 13);
+  }
+  25%, 45% {
+    color: rgb(190, 103, 9);
+  }
+  50%, 100% {
+    color: rgba(193, 148, 66, 0.939);
+  }
 }/*# sourceMappingURL=estilos.css.map */
