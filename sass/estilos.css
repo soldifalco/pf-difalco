@@ -24,7 +24,7 @@ header nav .logo:hover {
   border: 3px solid;
 }
 
-main .title-servicios {
+main .title-promos, main .title-servicios {
   color: orange;
   font-family: "Phudu", cursive;
   font-weight: bold;
@@ -134,4 +134,8 @@ main .servicios-item li {
   50%, 100% {
     color: rgba(193, 148, 66, 0.939);
   }
+}
+main .title-promos {
+  margin: 4rem;
+  text-align: center;
 }/*# sourceMappingURL=estilos.css.map */

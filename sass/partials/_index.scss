@@ -42,6 +42,15 @@ main{
             }
           }
         }
+   
+   .title-promos{
+    @extend %subtitulo;
+    margin: 4rem;
+    text-align: center;
+
+
+   }
+   
     }
 
 
