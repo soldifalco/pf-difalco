@@ -20,5 +20,23 @@ $colortext:rgb(247, 159, 28);
 }
 }
 
+%titulo{
+    color: $colormain;
+    font-family: $fontsecondary;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px $colorsecondary;
+    font-size: 1.5rem;
+
+}
+
+
+%subtitulo{
+    color: $colorsecondary;
+    font-family: $fontmain;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px $colormain;
+    font-size: 2rem;
+}
+
 
 

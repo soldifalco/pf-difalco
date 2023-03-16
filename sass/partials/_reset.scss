@@ -14,3 +14,9 @@ body{
     justify-content: $justify;
     align-items: $align;
   }
+
+  @mixin a($text,$color,$font){
+    text-decoration: $text;
+    color: $color;
+    font-family: $font;
+  }
