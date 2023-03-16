@@ -24,6 +24,14 @@ header nav .logo:hover {
   border: 3px solid;
 }
 
+.title-servicios {
+  color: orange;
+  font-family: "Phudu", cursive;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px orangered;
+  font-size: 2rem;
+}
+
 header .btn-nav {
   background-color: orangered;
   border-radius: 30px;
@@ -91,4 +99,8 @@ header .banner .bienvenida h2 {
   75%, 100% {
     background-image: url("/images/banner-index4.webp");
   }
+}
+.title-servicios {
+  margin: 3rem;
+  text-align: center;
 }/*# sourceMappingURL=estilos.css.map */
