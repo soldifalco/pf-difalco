@@ -8,3 +8,9 @@
 body{
     background-color: rgba(0, 0, 0, 0.786);
 }
+
+@mixin flex($flex, $justify, $align) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+  }

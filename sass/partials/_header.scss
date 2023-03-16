@@ -2,9 +2,7 @@ header{
     nav{
         .logo{
             @extend %logo;
-            &:hover{
-                color: $colortext;
-                border: 3px solid;
+            
             }
         }
         .btn-nav{
@@ -15,11 +13,71 @@ header{
                 color: $colormain;
                 font-family: $fontsecondary;
                 font-size: 1.5rem;
-                text-shadow: 1px -1px 1px;
+                text-shadow: 1px 1px 1px;
                 &:hover{
-                    color: $colortext;
+                    color: $colorsecondary;
                 }
             }
 
-        }
-    }
+            .banner {
+                width: 100%;
+                height: 600px;
+                animation: banner 10s infinite linear alternate;
+                background-size: 100% 100%;
+                position: relative;
+                @include flex(flex,center,center);
+            
+                .capa {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: rgb(0, 0, 0, 0.6);
+              
+                }
+                .bienvenida {
+                    z-index: 1;
+                    width: 100%;
+                    max-width: 550px;
+                    text-align: center;
+            
+                     h1 {
+                        color: $colormain;
+                        font-size: 3rem;
+                        font-weight: bold;
+                        margin-bottom: 20px;
+                        letter-spacing: 1px;
+                        text-shadow: 1px 1px 1px;
+                        font-family: $fontmain;
+                    }
+                    h2 {
+                        color: $colorsecondary;
+                        font-size: 2rem;
+                        font-weight: bolder;
+                        text-shadow: 2px 2px 2px black;
+                        font-family: $fontmain;
+                    }
+                   }
+                }
+            }
+            @keyframes banner {
+                0%,
+                20% {
+                    background-image: url("/images/banner-index1.webp");
+                }
+                25%,
+                45% {
+                    background-image: url("/images/banner-index2.webp");
+                }
+                50%,
+                70% {
+                    background-image: url("/images/banner-index3.webp");
+                }
+                75%,
+                100% {
+                    background-image: url("/images/banner-index4.webp");
+                }
+            }
+        
+    
