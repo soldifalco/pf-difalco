@@ -1,0 +1,21 @@
+$fontmain:'Phudu', cursive;
+$fontsecondary:'Bebas Neue', cursive;
+$fonttexto:'Edu NSW ACT Foundation', cursive;
+$colormain:orangered;
+$colorsecondary:orange;
+$colortext:rgb(247, 159, 28);
+
+%logo{
+    color: $colormain;
+    font-family: $fontmain;
+    font-weight: bold;
+    text-shadow: 1px -1px 1px;
+    font-size: 2rem;
+    border: 2px solid;
+    border-radius: 50px;
+    padding-inline: 1rem;
+}
+
+
+
+

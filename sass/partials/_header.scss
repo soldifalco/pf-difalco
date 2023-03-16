@@ -1,0 +1,25 @@
+header{
+    nav{
+        .logo{
+            @extend %logo;
+            &:hover{
+                color: $colortext;
+                border: 3px solid;
+            }
+        }
+        .btn-nav{
+            background-color: $colormain;
+            border-radius: 30px;
+            }
+            .nav-estilo{
+                color: $colormain;
+                font-family: $fontsecondary;
+                font-size: 1.5rem;
+                text-shadow: 1px -1px 1px;
+                &:hover{
+                    color: $colortext;
+                }
+            }
+
+        }
+    }
