@@ -88,16 +88,16 @@ header .banner .bienvenida h2 {
 
 @keyframes banner {
   0%, 20% {
-    background-image: url("/images/img-ban1.webp");
+    background-image: url("/images/banner1.webp");
   }
   25%, 45% {
-    background-image: url("/images/img-ban2.webp");
+    background-image: url("/images/banner2.webp");
   }
   50%, 70% {
-    background-image: url("/images/img-ban3.webp");
+    background-image: url("/images/banner3.webp");
   }
   75%, 100% {
-    background-image: url("/images/img-ban4.webp");
+    background-image: url("/images/banner4.webp");
   }
 }
 main .title-servicios {
