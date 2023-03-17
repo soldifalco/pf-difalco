@@ -24,7 +24,7 @@ header nav .logo:hover {
   border: 3px solid;
 }
 
-main .title-promos, main .title-servicios {
+main .promos .promos-estilos h5, main .title-promos, main .title-servicios {
   color: orange;
   font-family: "Phudu", cursive;
   font-weight: bold;
@@ -138,4 +138,32 @@ main .servicios-item li {
 main .title-promos {
   margin: 4rem;
   text-align: center;
+}
+main .promos {
+  border: 2px solid;
+  padding: 2rem;
+}
+main .promos .card {
+  border: 1px solid orangered;
+}
+main .promos .card:hover {
+  border: 3px solid orange;
+}
+main .promos .promos-estilos h5 {
+  font-size: 1.5rem;
+}
+main .promos .promos-estilos p {
+  color: rgb(247, 159, 28);
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.3rem;
+}
+main .promos .promos-estilos .btn-promos {
+  color: black;
+  background-color: orange;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+}
+main .promos .promos-estilos .btn-promos:hover {
+  border: 2px solid;
+  color: orangered;
 }/*# sourceMappingURL=estilos.css.map */

@@ -47,11 +47,46 @@ main{
     @extend %subtitulo;
     margin: 4rem;
     text-align: center;
+   }
 
+   .promos{
+    border: 2px solid;
+    padding: 2rem;
+
+    .card{
+      border: 1px solid $colormain;
+      &:hover{
+        border: 3px solid $colorsecondary;
+      }
+    }
+    .promos-estilos{
+
+   
+      h5{
+        @extend %subtitulo;
+        font-size: 1.5rem;
+      }
+  
+      p{
+        color: $colortext;
+        font-family:$fontsecondary;
+        letter-spacing: 0.3rem;
+      }
+
+      .btn-promos{
+        color: black;
+        background-color: $colorsecondary;
+        font-family: $fontsecondary;
+        font-weight: 400;
+         &:hover{
+          border: 2px solid;
+          color: $colormain;
+         }
+      }
+     }
 
    }
    
-    }
-
+  }
 
 
