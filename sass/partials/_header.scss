@@ -64,19 +64,19 @@ header{
             @keyframes banner {
                 0%,
                 20% {
-                    background-image: url("/images/banner1.webp");
+                    background-image: url("../images/banner-index1.webp");
                 }
                 25%,
                 45% {
-                    background-image: url("/images/banner2.webp");
+                    background-image: url("../images/banner-index2.webp");
                 }
                 50%,
                 70% {
-                    background-image: url("/images/banner3.webp");
+                    background-image: url("../images/banner-index3.webp");
                 }
                 75%,
                 100% {
-                    background-image: url("/images/banner4.webp");
+                    background-image: url("../images/banner-index4.webp");
                 }
             }
         
