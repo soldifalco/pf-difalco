@@ -108,6 +108,24 @@ main{
       }
     }
    }
+   .logo-index{
+
+    margin: 5rem;
+    text-align: center;
+    .logo{
+      @extend %logo;
+     
+      
+    
+      a{
+        @include a(none,$colormain,$fontmain);
+        &:hover{
+          color: $colortext;
+        }
+      }
+      
+    }
+   }
 
   }
 
