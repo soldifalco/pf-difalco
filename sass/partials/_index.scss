@@ -87,6 +87,27 @@ main{
 
    }
    
-  }
+   .horarios{
+    @extend .promos;
 
+    .horarios-estilos{
+      @extend %subtitulo;
+      background-color: rgba(0, 0, 0, 0.192);
+      font-size: 1.5rem;
+
+      .btn-horarios{
+        color: $colorsecondary;
+        background-color: black;
+        border: 1px solid;
+        border-radius: 80px;
+        font-family: $fontmain;
+        &:hover{
+          color: $colormain;
+        }
+
+      }
+    }
+   }
+
+  }
 

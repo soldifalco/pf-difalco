@@ -24,7 +24,7 @@ header nav .logo:hover {
   border: 3px solid;
 }
 
-main .promos .promos-estilos h5, main .title-promos, main .title-servicios {
+main .horarios .horarios-estilos, main .promos .promos-estilos h5, main .horarios .promos-estilos h5, main .title-promos, main .title-servicios {
   color: orange;
   font-family: "Phudu", cursive;
   font-weight: bold;
@@ -139,31 +139,45 @@ main .title-promos {
   margin: 4rem;
   text-align: center;
 }
-main .promos {
+main .promos, main .horarios {
   border: 2px solid;
   padding: 2rem;
 }
-main .promos .card {
+main .promos .card, main .horarios .card {
   border: 1px solid orangered;
 }
-main .promos .card:hover {
+main .promos .card:hover, main .horarios .card:hover {
   border: 3px solid orange;
 }
-main .promos .promos-estilos h5 {
+main .promos .promos-estilos h5, main .horarios .promos-estilos h5 {
   font-size: 1.5rem;
 }
-main .promos .promos-estilos p {
+main .promos .promos-estilos p, main .horarios .promos-estilos p {
   color: rgb(247, 159, 28);
   font-family: "Bebas Neue", cursive;
   letter-spacing: 0.3rem;
 }
-main .promos .promos-estilos .btn-promos {
+main .promos .promos-estilos .btn-promos, main .horarios .promos-estilos .btn-promos {
   color: black;
   background-color: orange;
   font-family: "Bebas Neue", cursive;
   font-weight: 400;
 }
-main .promos .promos-estilos .btn-promos:hover {
+main .promos .promos-estilos .btn-promos:hover, main .horarios .promos-estilos .btn-promos:hover {
   border: 2px solid;
+  color: orangered;
+}
+main .horarios .horarios-estilos {
+  background-color: rgba(0, 0, 0, 0.192);
+  font-size: 1.5rem;
+}
+main .horarios .horarios-estilos .btn-horarios {
+  color: orange;
+  background-color: black;
+  border: 1px solid;
+  border-radius: 80px;
+  font-family: "Phudu", cursive;
+}
+main .horarios .horarios-estilos .btn-horarios:hover {
   color: orangered;
 }/*# sourceMappingURL=estilos.css.map */
