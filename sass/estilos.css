@@ -9,6 +9,9 @@ body {
   background-color: rgba(0, 0, 0, 0.786);
 }
 
+/*mixin*/
+/*mixin mediaqueries*/
+/*mixin flexbox*/
 main .logo-index .logo, header nav .logo {
   color: orangered;
   font-family: "Phudu", cursive;
@@ -192,4 +195,23 @@ main .logo-index .logo a {
 }
 main .logo-index .logo a:hover {
   color: rgb(247, 159, 28);
+}
+
+/*pag-index*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .promos, main .horarios {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .promos, main .horarios {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=estilos.css.map */

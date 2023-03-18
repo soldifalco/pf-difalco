@@ -1,0 +1,21 @@
+/*pag-index*/
+
+.promos{
+    @include mobile{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+.promos{
+    @include tablet{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
