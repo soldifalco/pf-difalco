@@ -20,3 +20,18 @@
     }
 }
 
+/*página nosotros*/
+
+.instalaciones{
+@include mobile{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+.instalaciones{
+    @include tablet{
+        display: flex;
+        flex-direction: column;
+    }
+}
