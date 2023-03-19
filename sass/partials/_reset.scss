@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Phudu:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Phudu:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -23,6 +22,12 @@ body{
     text-decoration: $text;
     color: $color;
     font-family: $font;
+  }
+
+  @mixin grid($columns, $espacio) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: $espacio;
   }
 
   /*mixin mediaqueries*/
