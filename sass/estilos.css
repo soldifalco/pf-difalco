@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Phudu:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Phudu:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -25,6 +25,14 @@ main .logo-index .logo, header nav .logo {
 main .logo-index .logo:hover, header nav .logo:hover {
   color: rgb(247, 159, 28);
   border: 3px solid;
+}
+
+main .sec1 h1, main .sec5 h1, main .sec3 h1 {
+  color: orangered;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px orange;
+  font-size: 1.5rem;
 }
 
 main .horarios .horarios-estilos, main .promos .promos-estilos h5, main .horarios .promos-estilos h5, main .title-promos, main .title-servicios {
@@ -214,4 +222,33 @@ main .logo-index .logo a:hover {
     justify-content: center;
     align-items: center;
   }
+}
+
+main .sec1, main .sec5, main .sec3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/nosotros-principal.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+main .sec1 h1, main .sec5 h1, main .sec3 h1 {
+  font-size: 3rem;
+  letter-spacing: 0.8rem;
+  text-align: center;
+  background-color: black;
+}
+main .sec2, main .sec4 {
+  background-color: black;
+  color: rgb(247, 159, 28);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+main .sec3 {
+  background-image: url("/images/nosotros-gente.webp");
+}
+main .sec5 {
+  background-image: url("/images/nosotros-objetivo.webp");
 }/*# sourceMappingURL=estilos.css.map */
