@@ -1,68 +1,36 @@
-main{
- 
-  .sec1{
-    width: 100%;
-    height: 100vh;
-    background-image: url("../images/nosotros-principal.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+main {
+  .estilo-title {
+    @extend %titulo;
+    margin: 3rem;
+    text-align: center;
+  }
 
-    h1{
-        @extend %titulo;
-        font-size: 3rem;
-        letter-spacing: 0.8rem;
-        text-align:center;
-        background-color: black;
-        
+  .nosotros-style {
+    color: rgb(249, 193, 90);
+    line-height: 50px;
+    box-shadow: 1px -1px 1px $colormain;
+    padding-inline: 1rem;
+    margin-inline: 1rem;
+    align-items: center;
+    font-size: 1rem;
+    font-family: $fonttexto;
+    letter-spacing: 0.1rem;
+
+    &:hover {
+      box-shadow: 3px -3px 3px black;
+      color: $colormain;
     }
   }
 
-  .sec2{
-    background-color: black;
-    color: $colortext;
-    font-family: $fonttexto;
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.5rem;
-    
-  }
 
-  .sec3{
-    @extend .sec1;
-    background-image: url("../images/nosotros-objetivo.webp");
-  }
-
-  .sec4{
-    @extend .sec2;
-  }
-
-  .sec5{
-    @extend .sec1;
-    background-image: url("../images/nosotros-gente.webp");
-  }
 
 .instalaciones-title{
   @extend %subtitulo;
-  margin: 3rem;
+  margin: 5rem;
   text-align: center;
 }
-
-  .nosotros-instalaciones{
-    background-attachment: fixed;
-    @include flex(flex, center, center);
-    max-width: 100%;
-    background-position: center;
-
-    img{
-      width: 300px;
-      height: 300px;
-      border-radius: 50px;
-      margin:3rem ;
-
-      }
-
-      } 
-
-    }
+.instalaciones{
+  @include flex(flex, center, center);
   
+}
+}

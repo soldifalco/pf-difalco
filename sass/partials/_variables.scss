@@ -26,8 +26,12 @@ $colortext:rgb(247, 159, 28);
     color: $colormain;
     font-family: $fontsecondary;
     font-weight: bolder;
-    text-shadow: 1px 1px 1px $colorsecondary;
+    text-shadow: 1px 1px 1px black;
     font-size: 1.5rem;
+
+    span{
+        color: $colorsecondary;
+    }
 
 }
 
@@ -36,8 +40,12 @@ $colortext:rgb(247, 159, 28);
     color: $colorsecondary;
     font-family: $fontmain;
     font-weight: bold;
-    text-shadow: 1px 1px 1px $colormain;
+    text-shadow: 1px 1px 1px black;
     font-size: 2rem;
+
+    span{
+        color: $colormain;
+    }
 }
 
 
