@@ -1,0 +1,49 @@
+main {
+    .estilo-title {
+      @extend %titulo;
+      font-size: 3rem;
+    }
+    .grid {
+      @include grid(2, 1rem);
+      border: 1px solid;
+      padding-block: 2rem;
+      margin: 3rem;
+  
+      @include flex(flex, center, center);
+  
+      .grid-items {
+        border: 8px solid black;
+        border-radius: 6px;
+        margin-inline: 2rem;
+        padding-inline: 2rem;
+        background-color: black;
+        letter-spacing: 0.2rem;
+
+        img{
+            width: 400px;
+            height: 400px;
+        }
+
+      
+        h5 {
+          color: $colormain;
+          font-family: $fonttexto;
+          font-size: 1.5rem;
+          text-shadow: 1px -1px 1px black;
+          text-align: center;
+        }
+  
+        h6 {
+          color: $colorsecondary;
+          font-family: $fonttexto;
+          text-align: center;
+          font-size: 1rem;
+        }
+      
+    
+  
+
+  
+  }
+  }
+}

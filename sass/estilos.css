@@ -273,4 +273,44 @@ main .instalaciones {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+main .estilo-title {
+  font-size: 3rem;
+}
+main .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  border: 1px solid;
+  padding-block: 2rem;
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .grid .grid-items {
+  border: 8px solid black;
+  border-radius: 6px;
+  margin-inline: 2rem;
+  padding-inline: 2rem;
+  background-color: black;
+  letter-spacing: 0.2rem;
+}
+main .grid .grid-items img {
+  width: 400px;
+  height: 400px;
+}
+main .grid .grid-items h5 {
+  color: orangered;
+  font-family: "Mukta", sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 1px -1px 1px black;
+  text-align: center;
+}
+main .grid .grid-items h6 {
+  color: orange;
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+  font-size: 1rem;
 }/*# sourceMappingURL=estilos.css.map */
