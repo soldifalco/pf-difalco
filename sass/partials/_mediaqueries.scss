@@ -35,3 +35,20 @@
         flex-direction: column;
     }
 }
+
+
+/*página menú*/
+
+.grid{
+    @include mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+
+    .grid{
+        @include tablet{
+            display: flex;
+            flex-direction: column;
+        }
+        }

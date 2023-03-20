@@ -246,6 +246,21 @@ main .logo-index .logo a:hover {
   }
 }
 
+/*página menú*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 main .estilo-title {
   margin: 3rem;
   text-align: center;
@@ -257,13 +272,14 @@ main .nosotros-style {
   padding-inline: 1rem;
   margin-inline: 1rem;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: "Mukta", sans-serif;
   letter-spacing: 0.1rem;
 }
 main .nosotros-style:hover {
   box-shadow: 3px -3px 3px black;
-  color: orangered;
+  color: black;
+  background-color: orange;
 }
 main .instalaciones-title {
   margin: 5rem;
@@ -298,8 +314,8 @@ main .grid .grid-items {
   letter-spacing: 0.2rem;
 }
 main .grid .grid-items img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 main .grid .grid-items h5 {
   color: orangered;
