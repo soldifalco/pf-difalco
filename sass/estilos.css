@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Phudu:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@1,400;1,600;1,700&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Mukta:wght@200;300;400;500;600;700&family=Phudu:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -307,29 +307,30 @@ main .grid {
   align-items: center;
 }
 main .grid .grid-items {
-  border: 8px solid black;
-  border-radius: 6px;
+  border: 10px solid black;
+  border-radius: 50px;
   margin-inline: 2rem;
   padding-inline: 2rem;
   background-color: black;
   letter-spacing: 0.2rem;
 }
 main .grid .grid-items img {
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50px;
 }
 main .grid .grid-items h5 {
   color: orangered;
-  font-family: "Mukta", sans-serif;
-  font-size: 1.5rem;
+  font-family: "Crimson Text", serif;
+  font-size: 1.3rem;
   text-shadow: 1px -1px 1px black;
   text-align: center;
 }
 main .grid .grid-items h6 {
   color: orange;
-  font-family: "Mukta", sans-serif;
+  font-family: "Crimson Text", serif;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 main .contacto-title {
