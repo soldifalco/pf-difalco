@@ -1,0 +1,27 @@
+main{
+    .contacto-title{
+        @extend %titulo;
+        text-align: center;
+        margin: 5rem;
+   
+    }
+    .contacto-estilo{
+        color: $colorsecondary;
+        font-family: $fontsecondary;
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-shadow: 1.5px 1.5px 1.5px black;
+        letter-spacing: 0.2rem;
+
+    }
+  
+    .btn-warning{
+        font-family: $fontsecondary;
+        padding: 0.5rem;
+
+        &:hover{
+            color: $colormain;
+            border: 1px solid;
+        }
+    }
+}

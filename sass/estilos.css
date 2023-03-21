@@ -28,14 +28,14 @@ main .logo-index .logo:hover, header nav .logo:hover {
   border: 3px solid;
 }
 
-main .estilo-title {
+main .contacto-title, main .estilo-title {
   color: orangered;
   font-family: "Bebas Neue", cursive;
   font-weight: bolder;
   text-shadow: 1px 1px 1px black;
   font-size: 1.5rem;
 }
-main .estilo-title span {
+main .contacto-title span, main .estilo-title span {
   color: orange;
 }
 
@@ -330,4 +330,25 @@ main .grid .grid-items h6 {
   font-family: "Mukta", sans-serif;
   text-align: center;
   font-size: 1rem;
+}
+
+main .contacto-title {
+  text-align: center;
+  margin: 5rem;
+}
+main .contacto-estilo {
+  color: orange;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-shadow: 1.5px 1.5px 1.5px black;
+  letter-spacing: 0.2rem;
+}
+main .btn-warning {
+  font-family: "Bebas Neue", cursive;
+  padding: 0.5rem;
+}
+main .btn-warning:hover {
+  color: orangered;
+  border: 1px solid;
 }/*# sourceMappingURL=estilos.css.map */
