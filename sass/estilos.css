@@ -28,14 +28,14 @@ main .logo-index .logo:hover, header nav .logo:hover {
   border: 3px solid;
 }
 
-main .contacto-title, main .estilo-title {
+main .reserva-title, main .contacto-title, main .estilo-title {
   color: orangered;
   font-family: "Bebas Neue", cursive;
   font-weight: bolder;
   text-shadow: 1px 1px 1px black;
   font-size: 1.5rem;
 }
-main .contacto-title span, main .estilo-title span {
+main .reserva-title span, main .contacto-title span, main .estilo-title span {
   color: orange;
 }
 
@@ -304,19 +304,25 @@ main .grid {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 main .grid .grid-items {
-  border: 10px solid black;
+  border: 2px solid black;
   border-radius: 50px;
   margin-inline: 2rem;
   padding-inline: 2rem;
   background-color: black;
   letter-spacing: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
 }
 main .grid .grid-items img {
-  width: 320px;
-  height: 320px;
-  border-radius: 50px;
+  width: 600px;
+  height: 300px;
+  border-radius: 80px;
 }
 main .grid .grid-items h5 {
   color: orangered;
@@ -351,4 +357,28 @@ main .btn-warning {
 main .btn-warning:hover {
   color: orangered;
   border: 1px solid;
+}
+
+main .reserva-title {
+  text-align: center;
+  margin: 3rem;
+}
+main .form-title {
+  color: orange;
+  text-align: center;
+  margin: 1rem;
+  text-shadow: 1px -1px 1px orangered;
+}
+main .reservas {
+  background-image: url("../images/img-reservas.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .reservas form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
 }/*# sourceMappingURL=estilos.css.map */
