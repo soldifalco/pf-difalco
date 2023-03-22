@@ -7,8 +7,6 @@
     <title>Reservas - SUN!¡RESTO</title>
     <meta name="description" content="has tu reserva. te esperamos!">
     <meta name="keywords" content="restaurantes,restaurante,restó,buenos aires,argentina,ramos mejía,sun,reserva,reservar">
-
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
     <link rel="stylesheet" href="../sass/estilos.css">
 </head>
@@ -47,23 +45,23 @@
 
 
   <label for="nombre"></label>
-  <input  type="text" id="nombre" placeholder="Escriba su nombre aqui" required>
+  <input   class="input-reservas"  type="text" id="nombre" placeholder="Escriba su nombre aqui" required>
 
   <label for=""></label>
-  <input type="text" id="Apellido" placeholder="Escriba su apellido aqui" required>
+  <input  class="input-reservas"   type="text" id="Apellido" placeholder="Escriba su apellido aqui" required>
 
 
-  <label for="nombre" class="label-reservas"></label>
-        <input  type="email" id="email" placeholder="Escriba su email aqui" required>
+  <label for="nombre"></label>
+        <input  class="input-reservas"   type="email" id="email" placeholder="Escriba su e-mail aqui" required>
 
         <label for="nombre"></label>
-        <input type="text" id="telefono" placeholder="Escriba su numero aqui" required>
+        <input class="input-reservas"  type="text" id="telefono" placeholder="Escriba su número aqui" required>
 
         <label for=" comensales"></label>
-        <input type="number" id="comensales" placeholder="cantidad de comensales" required>
+        <input  class="input-reservas"    type="number" id="comensales" placeholder="cantidad de comensales" required>
 
-        <select name="" id="">
-          <option disabled selected>Elige un horario</option>
+        <select  name="" id="">
+          <option class="option-reservas" disabled selected>Elige un horario</optio>
 
           <option>20-21 hs</option>
           <option>21-22 hs</option>
@@ -71,9 +69,19 @@
         </select>
 
         <input class="btn-reservas" type="submit" value="Enviar reserva">
-        <input class="btn-reservas" type="reset" value="reset">
+<input class="btn-reservas" type="reset" value="reset">
 
 </form>
+
+<section class="gracias">
+    <h3>¡GRACIAS POR SU RESERVA!</h3>
+</section>
+       </section>
+
+       <section class="cartel-horarios">
+        <h5>HORARIOS:</h5>
+        <h6>lunes a viernes de 6:00 a 00:30 hs.</h6>
+        <h6>Sábados, domingos y feriados de 8:00 a 2:00 hs.</h6>
 
        </section>
 
