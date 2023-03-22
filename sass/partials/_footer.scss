@@ -2,7 +2,7 @@ footer{
     @include flex(flex,center,center);
     gap: 5rem;
     background-color: black;
-    margin: auto;
+    margin-top: 4rem;
 
     .footer-pages{
         a{
@@ -26,6 +26,19 @@ footer{
     font-size: 1rem;
     text-shadow: 1px 1px 1px gray;
     letter-spacing: 0.1rem;
+
+    .btn-footer{
+        color: black;
+        background-color: $colorsecondary;
+        border-radius: 20px;
+        padding: 0.2rem;
+        font-family: $fontsecondary;
+        font-weight: 400;
+        border: 1px solid $colormain;
+        &:hover{
+            color: $colormain;
+        }
+    }
 
     .footer-iconos{
         img{

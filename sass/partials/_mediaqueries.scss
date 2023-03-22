@@ -52,3 +52,18 @@
             flex-direction: column;
         }
         }
+
+
+        /*footer*/
+
+        footer{
+            @include mobile{
+            display: flex;
+            flex-direction: column;}
+        }
+
+        footer{
+            @include tablet{
+            display: flex;
+            flex-direction: column;}
+        }
