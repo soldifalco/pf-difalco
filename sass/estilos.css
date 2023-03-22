@@ -336,7 +336,6 @@ main .grid .grid-items h6 {
   text-align: center;
   font-size: 1.3rem;
   background-color: rgba(0, 0, 0, 0.15);
-  border: 0.2px solid;
   padding-inline: 0.3rem;
 }
 
@@ -417,4 +416,37 @@ main .cartel-horarios {
   font-weight: 900;
   letter-spacing: 0.1rem;
   background-color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: black;
+  margin: auto;
+}
+footer .footer-pages a {
+  text-decoration: none;
+  color: orange;
+  font-family: "Bebas Neue", cursive;
+  align-items: center;
+  font-size: 1.5rem;
+  border: 1px solid;
+  padding-inline: 1.5rem;
+  line-height: 3rem;
+}
+footer .footer-pages a:hover {
+  color: orangered;
+}
+footer .news {
+  color: orange;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1rem;
+  text-shadow: 1px 1px 1px gray;
+  letter-spacing: 0.1rem;
+}
+footer .news .footer-iconos img {
+  width: 30px;
 }/*# sourceMappingURL=estilos.css.map */

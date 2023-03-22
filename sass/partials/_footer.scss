@@ -1,0 +1,37 @@
+footer{
+    @include flex(flex,center,center);
+    gap: 5rem;
+    background-color: black;
+    margin: auto;
+
+    .footer-pages{
+        a{
+            @include a(none,$colorsecondary,$fontsecondary);
+            align-items: center;
+            font-size: 1.5rem;
+            border: 1px solid;
+            padding-inline: 1.5rem;
+            line-height: 3rem;
+
+            &:hover{
+                color: $colormain;
+            }
+        }
+    }
+
+.news{
+    color: $colorsecondary;
+    text-align: center;
+    font-family: $fontsecondary;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px gray;
+    letter-spacing: 0.1rem;
+
+    .footer-iconos{
+        img{
+        width: 30px;
+
+        }
+}
+}
+}
